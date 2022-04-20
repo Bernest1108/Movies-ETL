@@ -13,22 +13,5 @@ Prime Video was a platform for streaming movies and TV shows on Amazing Prime, t
  sponsor a hackathon. Providing a clean data set of move data and asking participants to predict the popular 
  pictures. Britta and I were tasked with creating the datasets for the hackathon.  </p>
 
-## Project Steps
-There were two data sources: a scrape of Wikipedia for all movies released since 1990, and rating data from 
-the Movie Land’s website. I extracted the data from the two sources, transformed it into one clean data set, 
-and finally loaded that data set into a SQL database. I used Python, Jupyter Notebook and Pandas to perform data 
-wrangling, and PostgresSQL to store the finished data. </p>
 
-## Challenges
-I experienced challenges in learning steps to complete the ETL process. This included understanding and 
-developing code to clean the data. I referenced files from both M_Fullerton and Raquely44 (Raquel Yates) from 
-GitHub on their respective ETL challenge to correct errors in the code. Finally, I learned that using Python 
-code rather than using SQL is less intuitive to follow the process steps.</p>
-
-## Results
-I developed four deliverable Python files to complete the process: 
-* “ETL_function_test.ipynb” file: wrote an ETL function to read three data files.
-* “ETL_clean_wiki_movies.ipynb” file: extracted and transformed the Wikipedia data.
-* “ETL_clean_kaggle_data.ipynb” file: extracted and transformed the Kaggle data.
-* “ETL_create_database.ipynb”: created the movie database. </p>
 
